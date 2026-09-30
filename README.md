@@ -1,98 +1,163 @@
 <div align="center">
 
-# 🌐 Qelaro Browser
-### Ultra-Premium, Next-Generation Web Browser Engineered for Modern Desktops & Foldable Devices
+# Qelaro Browser
+### Ultra-Premium, Next-Generation Web Browser Engineered for Modern Desktops and Foldable Devices
 
-[![Release](https://img.shields.io/github/v/release/SouvikNandi2004/qelaro-releases?style=for-the-badge&color=10b981)](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-0078D4?style=for-the-badge)](https://github.com/SouvikNandi2004/qelaro-releases/releases)
-[![License](https://img.shields.io/badge/License-Proprietary-64748b?style=for-the-badge)](https://qelaro.in)
+<p align="center">
+  <a href="https://github.com/SouvikNandi2004/qelaro-releases/releases/latest">
+    <img src="https://img.shields.io/github/v/release/SouvikNandi2004/qelaro-releases?color=059669&label=Release&style=flat-square" alt="Latest Release" />
+  </a>
+  <img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20%7C%20Intel-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS Support" />
+  <img src="https://img.shields.io/badge/Windows-64--bit-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Support" />
+  <img src="https://img.shields.io/badge/Linux-AppImage%20%7C%20deb-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Support" />
+  <img src="https://img.shields.io/badge/License-Proprietary-475569?style=flat-square" alt="License" />
+</p>
 
-[Download Latest Version](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest) • [Features](#-key-features) • [Installation](#-installation-guide) • [Changelog](#-whats-new-in-v101) • [Website](https://qelaro.in)
+<p align="center">
+  <a href="#download-and-installation">Download</a> &bull;
+  <a href="#core-features">Features</a> &bull;
+  <a href="#installation-instructions">Installation</a> &bull;
+  <a href="#whats-new-in-v100">Release Notes</a> &bull;
+  <a href="https://qelaro.in">Official Website</a>
+</p>
 
 ---
 
 </div>
 
-## 📖 Overview
+## Overview
 
-**Qelaro** is a state-of-the-art web browser built on modern Chromium and Electron architecture, specifically crafted for high-performance productivity, dual-screen multitasking, and seamless foldable device interactions. Combining a refined Apple-inspired aesthetic with advanced tab isolation and native extension compatibility, Qelaro offers an unmatched browsing experience.
+Qelaro Browser is a modern desktop web browser engineered on top of Chromium and Electron architectures. Tailored specifically for multi-tasking workflows, dual-screen hardware, and foldable computing devices, Qelaro integrates process-isolated WebContents, low-latency GPU rasterization, and seamless extension compatibility into a unified, glassmorphic design.
 
----
-
-## ✨ Key Features
-
-- **🚀 High-Performance Chromium Core**: Powered by Chromium with multi-threaded GPU rasterization, low-latency zero-copy rendering, and hardware acceleration for buttery-smooth 60/120 FPS navigation.
-- **📱 Foldable & Flex Mode Architecture**: Intelligently adapts to foldable laptops and dual-screen displays. Automatically detects postures (flat, laptop, tent, book) and realigns tabs and content seamlessly.
-- **🪟 Intelligent Split-Screen Browsing**: Side-by-side tabs in a single window with independent scrolling, zoom controls, and audio management.
-- **🧩 Native Chrome Extensions Bridge**: Built-in WebExtensions engine supporting popular Chrome extensions (`.crx` and unpacked extensions) with dedicated popup dialogs and badge counts.
-- **🔒 Privacy by Default**: Zero telemetry tracking, built-in tracker protection, isolated session profiles, and private browsing modes that leave no footprints.
-- **🎨 Glassmorphic Apple-Inspired Design**: Curated dark and light themes, dynamic tab stripes, fluid micro-animations, customizable new-tab dashboards, and floating omnibox search.
-- **⚡ Lightweight & Low-Device Optimized**: Engineered to consume minimal RAM and CPU, keeping battery drain low even under heavy multi-tab workloads.
-- **🔄 Seamless 1-Click Background Updates**: Fully automated update detection with instantaneous 1-click restart and update installation.
+This public repository serves as the official distribution channel for binary installers, update manifests, and verified cryptographic checksums.
 
 ---
 
-## 📥 Download & Install
+## Core Features
 
-Official release binaries are available directly from the [Releases Page](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest).
+### High-Performance Rendering Pipeline
+- Built on Chromium with hardware-accelerated GPU rasterization.
+- Low-latency zero-copy memory management providing fluid 60 FPS and 120 FPS display support.
+- Optimized memory management ensuring low CPU and battery overhead during heavy multi-tab workflows.
 
-| Platform | Architecture | Installer Type | Direct Link |
-| :--- | :--- | :--- | :--- |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Download DMG](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.1-mac-arm64.dmg) |
-| **macOS** | Apple Silicon (Portable Zip) | `.zip` Archive | [Download ZIP](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.1-mac-arm64.zip) |
-| **Windows** | 64-bit (x64) | `.exe` Setup | [Windows Releases](https://github.com/SouvikNandi2004/qelaro-releases/releases) |
-| **Linux** | 64-bit (x64) | `.AppImage` / `.deb` | [Linux Releases](https://github.com/SouvikNandi2004/qelaro-releases/releases) |
+### Foldable and Flex Mode Hardware Adaptation
+- Dynamic posture recognition (flat, laptop, tent, book) for convertible and dual-screen displays.
+- Responsive layout transitions that realign tab strips, split viewports, and omnibox controls without reload penalties.
+
+### Multi-View Split Screen
+- Side-by-side viewports in a single window with independent scrolling, zooming, and audio states.
+- Drag-and-drop tab detachment and cross-window tab transference.
+
+### Chrome WebExtensions Compatibility Bridge
+- Native WebExtensions bridge supporting Chrome extensions (unpacked folders and packed packages).
+- Dedicated extension action toolbar, dynamic badge counts, contextual menus, and secure popup dialogs.
+
+### Privacy and Session Security
+- Tracker protection and private browsing modes with zero disk trace.
+- Strict cross-origin process isolation and secure credential storage.
+- Zero telemetry tracking.
+
+### Atomic Background Auto-Updater
+- Silent update detection via verified release feeds.
+- 1-click update installation with atomic swap and instant relaunch.
+- Complete preservation of user data, history, cookies, and preferences across updates.
 
 ---
 
-## 🛠️ Installation Guide
+## Download and Installation
 
-### macOS
-1. Download the `Qelaro-1.0.1-mac-arm64.dmg` installer.
-2. Double-click the DMG and drag **Qelaro** to your **Applications** folder.
-3. Launch Qelaro from Launchpad or `/Applications`.
+Official release packages are published below. Direct downloads do not require authentication or a GitHub account.
 
-> **Note for macOS:** If prompted by Gatekeeper during the first open on macOS, right-click (or Control-click) `Qelaro.app` and select **Open**.
+### Official Installers (v1.0.0)
 
-### Windows
-1. Download the Windows installer (`.exe`).
-2. Run the installer and follow the on-screen setup wizard.
-3. Launch Qelaro from your Start Menu or Desktop shortcut.
+| Platform | Architecture | Package Format | Download Link | Checksum |
+| :--- | :--- | :--- | :--- | :--- |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.0-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.0/Qelaro-1.0.0-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.0-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.0/Qelaro-1.0.0-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
+| **Windows** | 64-bit (x64) | `.exe` Setup | [All Releases](https://github.com/SouvikNandi2004/qelaro-releases/releases) | Available in Release |
+| **Linux** | 64-bit (x64) | `.AppImage` / `.deb` | [All Releases](https://github.com/SouvikNandi2004/qelaro-releases/releases) | Available in Release |
 
-### Linux
-1. Download the `.AppImage` or `.deb` package.
-2. For AppImage:
+---
+
+## Installation Instructions
+
+### macOS Installation
+1. Download the `Qelaro-1.0.0-mac-arm64.dmg` package.
+2. Open the disk image and drag **Qelaro.app** into your `/Applications` directory.
+3. Open Qelaro from Applications or Spotlight.
+4. *Gatekeeper Notice:* If prompted by macOS Gatekeeper on initial launch, right-click (or Control-click) `Qelaro.app` and choose **Open**, or run the following command in Terminal:
    ```bash
-   chmod +x Qelaro-*.AppImage
-   ./Qelaro-*.AppImage
+   xattr -cr /Applications/Qelaro.app
+   ```
+
+### Windows Installation
+1. Download the Windows installer (`.exe`).
+2. Run the executable and proceed through the setup wizard.
+3. Launch Qelaro from the Start Menu or Desktop shortcut.
+
+### Linux Installation
+1. Download the `.AppImage` package.
+2. Grant executable permissions and launch:
+   ```bash
+   chmod +x Qelaro-1.0.0-x86_64.AppImage
+   ./Qelaro-1.0.0-x86_64.AppImage
    ```
 
 ---
 
-## 📝 What's New in v1.0.1
+## What's New in v1.0.0
 
-- **Seamless Auto-Updater Relaunch**: Completely re-engineered 1-click update installation on macOS for instantaneous atomic replacement and app relaunch.
-- **Dynamic Version Synchronization**: Unified application version reporting across internal browser APIs, settings panel, and update checker.
-- **Isolated Platform Release Pipeline**: Robust automated multi-platform publishing pipeline to public distribution feeds.
-- **Extension Bridge Stability**: Fixed WebExtension popup messaging and reload event handling.
-- **Performance & Smoothness**: Enhanced GPU rasterization flags and reduced idle memory usage.
-
----
-
-## 🔐 Security & Integrity
-
-All release assets are cryptographically verified with SHA-256 checksums available in each release package (`checksums.txt`).
+### Initial Stable Release Highlights
+- **Stable Core Deployment:** Full release of Qelaro with multi-view split-screen navigation and tab management.
+- **Dynamic Posture Engine:** Automatic layout transitions for foldable devices and secondary displays.
+- **Chrome WebExtensions Bridge:** Initial integration for Chrome browser extensions with full toolbar action UI.
+- **Atomic Update Pipeline:** Seamless background update discovery and atomic replacement mechanism.
+- **UI Customization:** Dark, light, and system themes with glassmorphic toolbar styling and floating omnibox search.
 
 ---
 
-## 📬 Support & Contact
+## Cryptographic Verification
 
-- **Website**: [https://qelaro.in](https://qelaro.in)
-- **Support Email**: [support@qelaro.in](mailto:support@qelaro.in)
-- **Issues & Feedback**: Submit issues via the in-app feedback modal or contact support.
+All binaries are cryptographically hashed to guarantee file integrity. You can verify your download using SHA-256:
+
+### macOS / Linux Verification
+```bash
+shasum -a 256 Qelaro-1.0.0-mac-arm64.dmg
+```
+
+### Windows Verification (PowerShell)
+```powershell
+Get-FileHash -Algorithm SHA256 .\Qelaro-1.0.0-mac-arm64.dmg
+```
+
+### Official SHA-256 Checksums (v1.0.0)
+```text
+77e3c6290155d879e1c62891825c5b0a3897b2083ec59a080abae528a80b4bad  Qelaro-1.0.0-mac-arm64.dmg
+ee2c51f5b368dece0ca5604e19978f19e0d2a10e226f7eec5f6803315db3aecd  Qelaro-1.0.0-mac-arm64.zip
+```
+
+---
+
+## Technical Specifications
+
+| Parameter | Specification |
+| :--- | :--- |
+| **Engine Core** | Chromium runtime |
+| **Application Layer** | Electron multi-process framework |
+| **Architectures** | ARM64 (Apple Silicon), x86_64 (Intel/AMD) |
+| **Operating Systems** | macOS 12+, Windows 10/11 (64-bit), Ubuntu 20.04+ / Debian 11+ |
+| **Hardware Requirements** | 2 GB RAM minimum, 4 GB RAM recommended |
+
+---
+
+## Support and Contact
+
+- **Website:** [https://qelaro.in](https://qelaro.in)
+- **Support:** [support@qelaro.in](mailto:support@qelaro.in)
+- **Report an Issue:** Use the in-app feedback dialog via Help > Report an Issue, or contact customer support directly.
 
 ---
 
 <div align="center">
-<sub>Copyright © 2026 Qelaro. All rights reserved.</sub>
+<sub>Copyright &copy; 2026 Qelaro. All rights reserved.</sub>
 </div>
