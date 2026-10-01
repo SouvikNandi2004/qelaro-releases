@@ -2,7 +2,12 @@
 QELARO BROWSER - OFFICIAL VERSION & CHANGELOG REGISTRY
 ================================================================================
 
-[v1.0.12] (Current) - Release Date: 2026-10-02
+[v1.0.13] (Current) - Release Date: 2026-10-02
+--------------------------------------------------------------------------------
+* Release: Official stable release v1.0.13
+* Synchronization: Updated package builds, engine components, and distribution manifests
+
+[v1.0.12] - Release Date: 2026-10-02
 --------------------------------------------------------------------------------
 * Fixed: Startup stall/freeze caused by synchronous live news feed bridge calls on WebView JS thread (replaced with non-blocking concurrent coroutine fetching and cache-first startup)
 * Fixed: Find on page bar clicks passing through to underlying website in bottom address bar mode (added active toolbar touch interception in TouchPassThroughWebView)
