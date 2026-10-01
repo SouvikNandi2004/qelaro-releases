@@ -1,0 +1,68 @@
+QELARO BROWSER END USER LICENSE & TERMS
+Copyright (c) 2026 Qelaro (https://qelaro.in). All rights reserved.
+Owner: Souvik Nandi (support@qelaro.in)
+Release Distribution Repository: https://github.com/SouvikNandi2004/qelaro-releases
+
+================================================================================
+1. GRANT OF LICENSE
+================================================================================
+Subject to the terms and conditions of this Agreement, Qelaro grants you a
+personal, non-exclusive, non-transferable, revocable license to download, install,
+and use Qelaro Browser binaries on compatible Windows, macOS, Linux, and Android
+computing devices for personal and commercial browsing use.
+
+================================================================================
+2. RESTRICTIONS
+================================================================================
+Except as expressly permitted by applicable third-party open-source licenses:
+- You may not reverse engineer, decompile, disassemble, or derive the source code
+  of proprietary binary components of Qelaro.
+- You may not rent, lease, lend, sell, sublicense, or commercially redistribute
+  modified installer packages under the "Qelaro" trademark without prior written
+  authorization from Qelaro.
+- You may not modify or remove any proprietary notices or copyright labels on
+  the software.
+
+================================================================================
+3. THIRD-PARTY & OPEN-SOURCE ACKNOWLEDGMENTS
+================================================================================
+Qelaro Browser is proudly built with and stands upon world-class open-source
+technologies, frameworks, and filter lists:
+
+- Chromium / Blink Layout Engine (BSD-3-Clause)
+  Copyright (c) The Chromium Authors & Google LLC.
+  Provides HTML5/CSS3 rendering pipeline, DOM parsing, and WebGPU standards.
+
+- Google V8 JavaScript & WebAssembly Engine (BSD-3-Clause)
+  Copyright (c) Google LLC.
+  High-performance JIT-optimizing JavaScript runtime.
+
+- Electron Desktop Platform (MIT License)
+  Copyright (c) Electron contributors / OpenJS Foundation.
+  Native window management, multi-process architecture, and GPU compositing.
+
+- Node.js Runtime Platform (MIT License)
+  Copyright (c) Node.js contributors / OpenJS Foundation.
+  Asynchronous event-driven runtime powering filesystem, caching, and IPC.
+
+- AdBlock & Tracker Rule Parser (GPLv3 / MPL 2.0)
+  Filter rules maintained by EasyList, EasyPrivacy, uBlock Origin, and ABP.
+
+- qrcode.js (MIT License)
+  Copyright (c) Ryan Day.
+  2D matrix QR code generator for instant mobile tab sharing.
+
+- electron-updater & electron-builder (MIT License)
+  Copyright (c) Vladimir Krivosheev / electron-builder contributors.
+  Cryptographic binary verification and atomic differential updates.
+
+================================================================================
+4. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+================================================================================
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
