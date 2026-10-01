@@ -2,7 +2,12 @@
 QELARO BROWSER - OFFICIAL VERSION & CHANGELOG REGISTRY
 ================================================================================
 
-[v1.0.10] (Current) - Release Date: 2026-10-02
+[v1.0.11] (Current) - Release Date: 2026-10-02
+--------------------------------------------------------------------------------
+* Release: Official stable release v1.0.11
+* Synchronization: Updated package builds, engine components, and distribution manifests
+
+[v1.0.10] - Release Date: 2026-10-02
 --------------------------------------------------------------------------------
 * Milestone: Designated Official Standard Stable Release v1.0.10 across all platforms
 * Engine Architecture: Multi-View Isolated WebContents Sandbox with crash isolation per tab (0% UI freeze propagation)
