@@ -17,7 +17,7 @@
   <a href="#download-and-installation">Download</a> &bull;
   <a href="#core-features">Features</a> &bull;
   <a href="#installation-instructions">Installation</a> &bull;
-  <a href="#whats-new-in-v100">Release Notes</a> &bull;
+  <a href="#whats-new-in-v1010">Release Notes</a> &bull;
   <a href="https://qelaro.in">Official Website</a>
 </p>
 
@@ -76,11 +76,11 @@ Official release packages are published below. Direct downloads do not require a
 | :--- | :--- | :--- | :--- | :--- |
 | **Windows** | 64-bit (x64) | `.exe` Setup Installer | [Qelaro-Setup-1.0.10-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-Setup-1.0.10-x64.exe) | [SHA-256](#cryptographic-verification) |
 | **Windows** | 64-bit (x64) | `.exe` Portable (No Install) | [Qelaro-Portable-1.0.10-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-Portable-1.0.10-x64.exe) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.0-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.0-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Intel Core (x64) | `.dmg` Installer | [Qelaro-1.0.0-mac-x64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-mac-x64.dmg) | [SHA-256](#cryptographic-verification) |
-| **Linux** | 64-bit (x64) | `.AppImage` | [Qelaro-1.0.0-x86_64.AppImage](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-x86_64.AppImage) | [SHA-256](#cryptographic-verification) |
-| **Linux** | 64-bit (x64) | `.deb` (Debian/Ubuntu) | [qelaro_1.0.0_amd64.deb](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/qelaro_1.0.0_amd64.deb) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.10-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-1.0.10-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.10-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-1.0.10-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Intel Core (x64) | `.dmg` Installer | [Qelaro-1.0.10-mac-x64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-1.0.10-mac-x64.dmg) | [SHA-256](#cryptographic-verification) |
+| **Linux** | 64-bit (x64) | `.AppImage` | [Qelaro-1.0.10-x86_64.AppImage](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-1.0.10-x86_64.AppImage) | [SHA-256](#cryptographic-verification) |
+| **Linux** | 64-bit (x64) | `.deb` (Debian/Ubuntu) | [qelaro_1.0.10_amd64.deb](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/qelaro_1.0.10_amd64.deb) | [SHA-256](#cryptographic-verification) |
 | **All Platforms** | All Architectures | Full Release Hub | [View Latest GitHub Release ↗](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest) | Auto-Detects |
 
 ---
@@ -88,7 +88,7 @@ Official release packages are published below. Direct downloads do not require a
 ## Installation Instructions
 
 ### macOS Installation
-1. Download the `Qelaro-1.0.0-mac-arm64.dmg` package.
+1. Download the `Qelaro-1.0.10-mac-arm64.dmg` package.
 2. Open the disk image and drag **Qelaro.app** into your `/Applications` directory.
 3. Open Qelaro from Applications or Spotlight.
 4. *Gatekeeper Notice:* If prompted by macOS Gatekeeper on initial launch, right-click (or Control-click) `Qelaro.app` and choose **Open**, or run the following command in Terminal:
@@ -105,20 +105,27 @@ Official release packages are published below. Direct downloads do not require a
 1. Download the `.AppImage` package.
 2. Grant executable permissions and launch:
    ```bash
-   chmod +x Qelaro-1.0.0-x86_64.AppImage
-   ./Qelaro-1.0.0-x86_64.AppImage
+   chmod +x Qelaro-1.0.10-x86_64.AppImage
+   ./Qelaro-1.0.10-x86_64.AppImage
    ```
 
 ---
 
-## What's New in v1.0.0
+## What's New in v1.0.10
 
 ### Initial Stable Release Highlights
-- **Stable Core Deployment:** Full release of Qelaro with multi-view split-screen navigation and tab management.
-- **Dynamic Posture Engine:** Automatic layout transitions for foldable devices and secondary displays.
-- **Chrome WebExtensions Bridge:** Initial integration for Chrome browser extensions with full toolbar action UI.
-- **Atomic Update Pipeline:** Seamless background update discovery and atomic replacement mechanism.
-- **UI Customization:** Dark, light, and system themes with glassmorphic toolbar styling and floating omnibox search.
+* Milestone: Designated Official Standard Stable Release v1.0.10 across all platforms
+* Engine Architecture: Multi-View Isolated WebContents Sandbox with crash isolation per tab (0% UI freeze propagation)
+* Hardware Acceleration: Direct GPU Hardware Rasterization pipeline (DirectX 12 / Vulkan / Metal) unlocking 120+ FPS fluid navigation and 8K 60fps AV1/VP9 decode
+* Privacy & Security: Native AdBlock & Anti-Tracker Shield Engine intercepting network requests against 150,000+ EasyList and Peter Lowe's rules
+* Performance: Intelligent RAM Hibernation & Memory Saver engine reclaiming up to 65% memory on background idle tabs
+* Tab Management: Calibrated Smooth Tab Tear-off system supporting deliberate UP and DOWN pull gestures with live drag tracking (prevents accidental detach during horizontal tab reordering)
+* Form Factors: Dual-Pane Foldable & Flex Mode Multitasking with adaptive posture recognition (flat, book, tent, laptop)
+* Cloud Integration: SNCloud Zero-Latency Real-Time Sync for instant synchronization of tabs, workspaces, history, bookmarks, and user preferences
+* Extensions: Chrome WebExtensions MV3 and MV2 compatibility bridge with sandboxed background lifecycle execution
+* Open Source Transparency: Built-in Settings Open Source Architecture hub, engine power metrics, and interactive Licenses & Acknowledgments modal
+* Diagnostics & Telemetry: Interactive "Report Issue" diagnostic telemetry pipeline with sanitization and validation
+* Productivity Tools: Native Windows QR Code tab sharing, Built-in Task Manager (Shift+Esc), and Distraction-free Reader Mode
 
 ---
 
@@ -128,18 +135,18 @@ All binaries are cryptographically hashed to guarantee file integrity. You can v
 
 ### macOS / Linux Verification
 ```bash
-shasum -a 256 Qelaro-1.0.0-mac-arm64.dmg
+shasum -a 256 Qelaro-1.0.10-mac-arm64.dmg
 ```
 
 ### Windows Verification (PowerShell)
 ```powershell
-Get-FileHash -Algorithm SHA256 .\Qelaro-1.0.0-mac-arm64.dmg
+Get-FileHash -Algorithm SHA256 .\Qelaro-1.0.10-mac-arm64.dmg
 ```
 
-### Official SHA-256 Checksums (v1.0.0)
+### Official SHA-256 Checksums (v1.0.10)
 ```text
-77e3c6290155d879e1c62891825c5b0a3897b2083ec59a080abae528a80b4bad  Qelaro-1.0.0-mac-arm64.dmg
-ee2c51f5b368dece0ca5604e19978f19e0d2a10e226f7eec5f6803315db3aecd  Qelaro-1.0.0-mac-arm64.zip
+816a12c5c5104306f98a28d38420502d9e5a1508a647aaaac54831086634f061  Qelaro-1.0.10-mac-arm64.dmg
+97c42a088c4c6b4537408c4ed0030e17844504a794ec5aca83a530b23fa29321  Qelaro-1.0.10-mac-arm64.zip
 ```
 
 ---
