@@ -68,14 +68,20 @@ This public repository serves as the official distribution channel for binary in
 
 Official release packages are published below. Direct downloads do not require authentication or a GitHub account.
 
-### Official Installers (v1.0.0)
+### Official Installers (Latest & v1.0.10)
 
-| Platform | Architecture | Package Format | Download Link | Checksum |
+> **Auto-Detection:** Clicking the download links below automatically delivers the verified release files directly from GitHub Releases.
+
+| Platform | Architecture | Package Format | Direct Download | Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.0-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.0/Qelaro-1.0.0-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.0-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.0/Qelaro-1.0.0-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
-| **Windows** | 64-bit (x64) | `.exe` Setup | [All Releases](https://github.com/SouvikNandi2004/qelaro-releases/releases) | Available in Release |
-| **Linux** | 64-bit (x64) | `.AppImage` / `.deb` | [All Releases](https://github.com/SouvikNandi2004/qelaro-releases/releases) | Available in Release |
+| **Windows** | 64-bit (x64) | `.exe` Setup Installer | [Qelaro-Setup-1.0.10-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-Setup-1.0.10-x64.exe) | [SHA-256](#cryptographic-verification) |
+| **Windows** | 64-bit (x64) | `.exe` Portable (No Install) | [Qelaro-Portable-1.0.10-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.10/Qelaro-Portable-1.0.10-x64.exe) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.0-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.0-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Intel Core (x64) | `.dmg` Installer | [Qelaro-1.0.0-mac-x64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-mac-x64.dmg) | [SHA-256](#cryptographic-verification) |
+| **Linux** | 64-bit (x64) | `.AppImage` | [Qelaro-1.0.0-x86_64.AppImage](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/Qelaro-1.0.0-x86_64.AppImage) | [SHA-256](#cryptographic-verification) |
+| **Linux** | 64-bit (x64) | `.deb` (Debian/Ubuntu) | [qelaro_1.0.0_amd64.deb](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest/download/qelaro_1.0.0_amd64.deb) | [SHA-256](#cryptographic-verification) |
+| **All Platforms** | All Architectures | Full Release Hub | [View Latest GitHub Release ↗](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest) | Auto-Detects |
 
 ---
 
