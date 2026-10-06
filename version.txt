@@ -2,7 +2,22 @@
 QELARO BROWSER - OFFICIAL VERSION & CHANGELOG REGISTRY
 ================================================================================
 
-[v1.0.20] (Current) - Release Date: 2026-10-04
+<<<<<<< HEAD
+[v1.0.21] (Current) - Release Date: 2026-10-06
+--------------------------------------------------------------------------------
+* Fixed: Search engine routing to strictly respect DuckDuckGo and custom engine defaults
+* Fixed: Tab switching and reload stability in Android native omnibar
+* Enhanced: Dynamic version auto-detection from Gradle/APK package build configuration
+* UI/UX: Streamlined mobile start page layout and removed favorites clutter
+* Performance: Optimized startup suggestions and background state persistence
+=======
+[v1.0.22] (Current) - Release Date: 2026-10-07
+--------------------------------------------------------------------------------
+* Release: Official stable release v1.0.22
+* Synchronization: Updated package builds, engine components, and distribution manifests
+>>>>>>> ef7d9da (chore: bump application version to 1.0.22 across configurations and documentation)
+
+[v1.0.20] - Release Date: 2026-10-04
 --------------------------------------------------------------------------------
 * Release: Official stable release v1.0.20
 * Synchronization: Updated package builds, engine components, and distribution manifests
