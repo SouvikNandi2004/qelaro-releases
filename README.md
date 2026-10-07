@@ -17,7 +17,7 @@
   <a href="#download-and-installation">Download</a> &bull;
   <a href="#core-features">Features</a> &bull;
   <a href="#installation-instructions">Installation</a> &bull;
-  <a href="#whats-new-in-v1022">Release Notes</a> &bull;
+  <a href="#whats-new-in-v1025">Release Notes</a> &bull;
   <a href="https://qelaro.in">Official Website</a>
 </p>
 
@@ -68,19 +68,19 @@ This public repository serves as the official distribution channel for binary in
 
 Official release packages are published below. Direct downloads do not require authentication or a GitHub account.
 
-### Official Installers (Latest & v1.0.22)
+### Official Installers (Latest & v1.0.25)
 
 > **Auto-Detection:** Clicking the download links below automatically delivers the verified release files directly from GitHub Releases.
 
 | Platform | Architecture | Package Format | Direct Download | Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **Windows** | 64-bit (x64) | `.exe` Setup Installer | [Qelaro-Setup-1.0.22-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/Qelaro-Setup-1.0.22-x64.exe) | [SHA-256](#cryptographic-verification) |
-| **Windows** | 64-bit (x64) | `.exe` Portable (No Install) | [Qelaro-Portable-1.0.22-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/Qelaro-Portable-1.0.22-x64.exe) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.22-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/Qelaro-1.0.22-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.22-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/Qelaro-1.0.22-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
-| **macOS** | Intel Core (x64) | `.dmg` Installer | [Qelaro-1.0.22-mac-x64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/Qelaro-1.0.22-mac-x64.dmg) | [SHA-256](#cryptographic-verification) |
-| **Linux** | 64-bit (x64) | `.AppImage` | [Qelaro-1.0.22-x86_64.AppImage](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/Qelaro-1.0.22-x86_64.AppImage) | [SHA-256](#cryptographic-verification) |
-| **Linux** | 64-bit (x64) | `.deb` (Debian/Ubuntu) | [qelaro_1.0.22_amd64.deb](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.22/qelaro_1.0.22_amd64.deb) | [SHA-256](#cryptographic-verification) |
+| **Windows** | 64-bit (x64) | `.exe` Setup Installer | [Qelaro-Setup-1.0.25-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/Qelaro-Setup-1.0.25-x64.exe) | [SHA-256](#cryptographic-verification) |
+| **Windows** | 64-bit (x64) | `.exe` Portable (No Install) | [Qelaro-Portable-1.0.25-x64.exe](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/Qelaro-Portable-1.0.25-x64.exe) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.dmg` Installer | [Qelaro-1.0.25-mac-arm64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/Qelaro-1.0.25-mac-arm64.dmg) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | `.zip` Archive | [Qelaro-1.0.25-mac-arm64.zip](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/Qelaro-1.0.25-mac-arm64.zip) | [SHA-256](#cryptographic-verification) |
+| **macOS** | Intel Core (x64) | `.dmg` Installer | [Qelaro-1.0.25-mac-x64.dmg](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/Qelaro-1.0.25-mac-x64.dmg) | [SHA-256](#cryptographic-verification) |
+| **Linux** | 64-bit (x64) | `.AppImage` | [Qelaro-1.0.25-x86_64.AppImage](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/Qelaro-1.0.25-x86_64.AppImage) | [SHA-256](#cryptographic-verification) |
+| **Linux** | 64-bit (x64) | `.deb` (Debian/Ubuntu) | [qelaro_1.0.25_amd64.deb](https://github.com/SouvikNandi2004/qelaro-releases/releases/download/v1.0.25/qelaro_1.0.25_amd64.deb) | [SHA-256](#cryptographic-verification) |
 | **All Platforms** | All Architectures | Full Release Hub | [View Latest GitHub Release ↗](https://github.com/SouvikNandi2004/qelaro-releases/releases/latest) | Auto-Detects |
 
 ---
@@ -88,7 +88,7 @@ Official release packages are published below. Direct downloads do not require a
 ## Installation Instructions
 
 ### macOS Installation
-1. Download the `Qelaro-1.0.22-mac-arm64.dmg` package.
+1. Download the `Qelaro-1.0.25-mac-arm64.dmg` package.
 2. Open the disk image and drag **Qelaro.app** into your `/Applications` directory.
 3. Open Qelaro from Applications or Spotlight.
 4. *Gatekeeper Notice:* If prompted by macOS Gatekeeper on initial launch, right-click (or Control-click) `Qelaro.app` and choose **Open**, or run the following command in Terminal:
@@ -105,16 +105,16 @@ Official release packages are published below. Direct downloads do not require a
 1. Download the `.AppImage` package.
 2. Grant executable permissions and launch:
    ```bash
-   chmod +x Qelaro-1.0.22-x86_64.AppImage
-   ./Qelaro-1.0.22-x86_64.AppImage
+   chmod +x Qelaro-1.0.25-x86_64.AppImage
+   ./Qelaro-1.0.25-x86_64.AppImage
    ```
 
 ---
 
-## What's New in v1.0.22
+## What's New in v1.0.25
 
 ### Initial Stable Release Highlights
-* Release: Official stable release v1.0.22
+* Release: Official stable release v1.0.25
 * Synchronization: Updated package builds, engine components, and distribution manifests
 
 ---
@@ -125,18 +125,18 @@ All binaries are cryptographically hashed to guarantee file integrity. You can v
 
 ### macOS / Linux Verification
 ```bash
-shasum -a 256 Qelaro-1.0.22-mac-arm64.dmg
+shasum -a 256 Qelaro-1.0.25-mac-arm64.dmg
 ```
 
 ### Windows Verification (PowerShell)
 ```powershell
-Get-FileHash -Algorithm SHA256 .\Qelaro-1.0.22-mac-arm64.dmg
+Get-FileHash -Algorithm SHA256 .\Qelaro-1.0.25-mac-arm64.dmg
 ```
 
-### Official SHA-256 Checksums (v1.0.22)
+### Official SHA-256 Checksums (v1.0.25)
 ```text
-8ca2f78b22906533a6aacc95ae6927a6f9312839f759987bac8a95ef0611b7fd  Qelaro-1.0.22-mac-arm64.dmg
-242138e41e0eb53b6193a20172ed0f75e77e666e591ad761e33dc2e8f13df11e  Qelaro-1.0.22-mac-arm64.zip
+1c9a97b5099f830d69a161fcb587c7e2ba5169b1c6fdb4434121c1faa2803ed2  Qelaro-Portable-1.0.22-x64.exe
+e980ec313cb0af75ae90d3cd150a17abc0b2369c2a66c5aa855dfa9a4b75680b  Qelaro-Setup-1.0.22-x64.exe
 ```
 
 ---
