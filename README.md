@@ -135,8 +135,8 @@ Get-FileHash -Algorithm SHA256 .\Qelaro-1.0.31-mac-arm64.dmg
 
 ### Official SHA-256 Checksums (v1.0.31)
 ```text
-ed2417d6f8640a6cd5d51add5c9949f5e004e113bf779db89e6871514cb61d6b  Qelaro-1.0.30-mac-arm64.dmg
-5808a96f50a7bce9ba044cbcc77341dfe965649ab1a5441dfd46e27598a3c55a  Qelaro-1.0.30-mac-arm64.zip
+fecac24faece22eaf36b933b30bb94ca092fb16e2d5eeec1f78d939bb1321bed  Qelaro-Portable-1.0.30-x64.exe
+1a2bd2fb02d1a929cfaef5b10a6e104459dcfe1773627f4662dcedc3abc781a9  Qelaro-Setup-1.0.30-x64.exe
 ```
 
 ---
