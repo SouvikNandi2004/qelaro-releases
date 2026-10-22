@@ -2,12 +2,12 @@
 QELARO BROWSER - OFFICIAL VERSION & CHANGELOG REGISTRY
 ================================================================================
 
-[v1.0.33] (Current) - Release Date: 2026-10-21
+[v1.0.33] - Release Date: 2026-10-21
 --------------------------------------------------------------------------------
 * Release: Official stable release v1.0.33
 * Synchronization: Updated package builds, engine components, and distribution manifests
 
-[v1.0.32] - Release Date: 2026-10-21
+[v1.0.32] (Current) - Release Date: 2026-10-21
 --------------------------------------------------------------------------------
 * Release: Official stable release v1.0.32
 * Synchronization: Updated package builds, engine components, and distribution manifests
@@ -37,7 +37,11 @@ QELARO BROWSER - OFFICIAL VERSION & CHANGELOG REGISTRY
 * Release: Official stable release v1.0.25
 * Synchronization: Updated package builds, engine components, and distribution manifests
 
-<<<<<<< HEAD
+[v1.0.22] - Release Date: 2026-10-07
+--------------------------------------------------------------------------------
+* Release: Official stable release v1.0.22
+* Synchronization: Updated package builds, engine components, and distribution manifests
+
 [v1.0.21] - Release Date: 2026-10-06
 --------------------------------------------------------------------------------
 * Fixed: Search engine routing to strictly respect DuckDuckGo and custom engine defaults
@@ -45,12 +49,6 @@ QELARO BROWSER - OFFICIAL VERSION & CHANGELOG REGISTRY
 * Enhanced: Dynamic version auto-detection from Gradle/APK package build configuration
 * UI/UX: Streamlined mobile start page layout and removed favorites clutter
 * Performance: Optimized startup suggestions and background state persistence
-=======
-[v1.0.22] - Release Date: 2026-10-07
---------------------------------------------------------------------------------
-* Release: Official stable release v1.0.22
-* Synchronization: Updated package builds, engine components, and distribution manifests
->>>>>>> ef7d9da (chore: bump application version to 1.0.22 across configurations and documentation)
 
 [v1.0.20] - Release Date: 2026-10-04
 --------------------------------------------------------------------------------
